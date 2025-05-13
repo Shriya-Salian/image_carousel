@@ -11,3 +11,43 @@ body{
         align-items: center;
         gap: 50px;
 }
+
+.arrow {
+        height:50px;
+        cursor: pointer;
+}
+
+.right{
+        height:50px;
+        cursor: pointer;
+        transform: rotate(180deg);
+}
+
+.frame{
+        width:500px;
+        height:750px;
+        overflow:hidden;
+        box-shadow:-1px 1px 10px rgba(0, 0, 0, 1)
+}
+
+.slider{
+        display:flex;
+}
+
+.image{
+        height: 100%;
+        width:100%
+        /* object-fit: auto; */
+}
+
+.windbreaker{
+        height:110vh;
+}
+.silentvoice{
+        /* width:100wh; */
+        height:105vh;
+}
+.spy{
+        height: 120vh;     
+}
+
