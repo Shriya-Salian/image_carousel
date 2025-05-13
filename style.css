@@ -3,7 +3,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        height: 80%;
         /* background: url(images/background.jpeg) no-repeat;
        background-size: 100% 100%; */
        background-color: rgb(88, 90, 89);
@@ -45,14 +45,16 @@ body{
         /* object-fit: auto; */
 }
 
+.onepiece{
+        height:30vh;
+}
 .windbreaker{
-        height:110vh;
+        height:27vh;
 }
 .silentvoice{
         /* width:100wh; */
-        height:105vh;
+        height:30vh;
 }
 .spy{
-        height: 120vh;     
+        height: 30vh;     
 }
-
