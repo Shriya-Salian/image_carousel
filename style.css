@@ -28,9 +28,10 @@ body{
 }
 
 .frame{
-        width:500px;
-        height:750px;
-        overflow:hidden;
+        width: 500px;
+        height: 800px;
+        overflow: hidden;
+        position: relative;
         box-shadow:-1px 1px 10px rgba(0, 0, 0, 1)
 }
 
@@ -39,22 +40,11 @@ body{
         transition:all 1s ease;
 }
 
-.image{
-        height: 100%;
-        width:100%
-        /* object-fit: auto; */
+.image {
+    flex-shrink: 0;           /* Prevents shrinking */
+    width: 500px;             /* Match .frame width */
+    height: 800px;            /* Match .frame height */
+    object-fit: cover;        /* Crops image to fit frame without distortion */
+    background-color: #000;   /* Optional: black background behind cropped areas */
 }
 
-.onepiece{
-        height:30vh;
-}
-.windbreaker{
-        height:27vh;
-}
-.silentvoice{
-        /* width:100wh; */
-        height:30vh;
-}
-.spy{
-        height: 30vh;     
-}
